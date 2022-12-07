@@ -1,0 +1,33 @@
+input{
+    width: 20%;
+}
+
+select{
+    height: 21px;
+    cursor: pointer;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.history{
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#btn{
+    padding: 7px;
+    font-weight: bold;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+
+#btn:hover{
+    background-color: lightcoral;
+}

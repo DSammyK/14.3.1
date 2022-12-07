@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kalkulačka</title>
+    <link rel="stylesheet" href="./style.css">
+
+  
+</head>
+<body>
+
+    <div class="container">
+        <h1>Jednoduchá kalkulačka</h1>
+
+        <input type="number" name="a" id="a">
+        <select name="operacia" id="operacia">
+            <option value="plus">+</option>
+            <option value="minus">-</option>
+            <option value="krat">*</option>
+            <option value="deleno">/</option>
+        </select>
+        <input type="number" name="b" id="b">
+
+        <button onclick="vypocitaj()" >=</button>
+        
+        <input type="text" id="vysledok" disabled>
+
+        <div class="history">
+            <p>História výsledkov: <span id="historyOfNumbers"></span></p>
+            <button onclick="vymazhistoriu()" id="btn">Vymaž históriu</button>
+        </div>
+    </div>
+
+    <script src="./javaScript.js"></script>
+</body>
+</html>
